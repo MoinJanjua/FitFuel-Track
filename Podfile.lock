@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.19)
+  - TYProgressBar (0.8.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - TYProgressBar
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - TYProgressBar
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  TYProgressBar: 1ec8ab0da29a6ccf80e20821388a8d2f484404c8
+
+PODFILE CHECKSUM: 07974e97be351eef1607f5c8695cdc9dd33a75a2
+
+COCOAPODS: 1.15.2

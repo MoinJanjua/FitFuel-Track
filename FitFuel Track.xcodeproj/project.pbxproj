@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8002F4B72CD0CC1E00FAABC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002F4B62CD0CC1E00FAABC2 /* AppDelegate.swift */; };
+		8002F4B92CD0CC1E00FAABC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002F4B82CD0CC1E00FAABC2 /* SceneDelegate.swift */; };
+		8002F4BE2CD0CC1E00FAABC2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8002F4BD2CD0CC1E00FAABC2 /* Base */; };
+		8002F4C02CD0CC2100FAABC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8002F4BF2CD0CC2100FAABC2 /* Assets.xcassets */; };
+		8002F4C32CD0CC2100FAABC2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8002F4C22CD0CC2100FAABC2 /* Base */; };
+		8002F4CC2CD0D1F000FAABC2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002F4CA2CD0D1F000FAABC2 /* Helper.swift */; };
+		8002F4D12CD0D53000FAABC2 /* WelcomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002F4CD2CD0D53000FAABC2 /* WelcomeOneViewController.swift */; };
+		801A06F32CD4E1080078D70F /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A06F12CD4E1080078D70F /* FeedbackViewController.swift */; };
+		801A06F62CD4E1140078D70F /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A06F42CD4E1140078D70F /* AboutusViewController.swift */; };
+		801A2F092CD24DA300288BB2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A2EFD2CD24DA300288BB2 /* CustomTabBar.swift */; };
+		801A2F0A2CD24DA300288BB2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A2EFE2CD24DA300288BB2 /* TabBarViewController.swift */; };
+		803319C72CD371AF00C0B22D /* CaloriesCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803319C62CD371AF00C0B22D /* CaloriesCalculationViewController.swift */; };
+		80344C2F2CD3C06500D1AD10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80344C2C2CD3C06500D1AD10 /* SettingsViewController.swift */; };
+		80344C302CD3C06500D1AD10 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80344C2D2CD3C06500D1AD10 /* SideMenuTableViewCell.swift */; };
+		80344C332CD3CE2100D1AD10 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80344C322CD3CE2100D1AD10 /* UpdateViewController.swift */; };
+		80792A2B2CD0F66A00FF8277 /* GetInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80792A2A2CD0F66A00FF8277 /* GetInformationViewController.swift */; };
+		807FCFB52CD2217B00962B11 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FCFB32CD2217A00962B11 /* iOSDropDown.swift */; };
+		807FCFB82CD23CE000962B11 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FCFB72CD23CE000962B11 /* HomeViewController.swift */; };
+		809E9BB92CD8BA24001410D8 /* WorkutDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809E9BB82CD8BA24001410D8 /* WorkutDetailsViewController.swift */; };
+		80B8D1A42CD4D6D200560594 /* MeasurmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8D1A32CD4D6D200560594 /* MeasurmentsViewController.swift */; };
+		80BE8EFE2CD274F700ED1B8A /* AddWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE8EFD2CD274F700ED1B8A /* AddWorkOutViewController.swift */; };
+		80EBB2022CD4AC170014F226 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EBB2002CD4AC170014F226 /* UserProfileViewController.swift */; };
+		80F5F4DB2CD2630E00BD3B83 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5F4DA2CD2630E00BD3B83 /* WorkoutViewController.swift */; };
+		80F5F4DD2CD265FA00BD3B83 /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5F4DC2CD265F900BD3B83 /* WorkoutTableViewCell.swift */; };
+		D019BF91A471608F6FCEEFF3 /* Pods_FitFuel_Track.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DDCB2FB7F9899B286F365A /* Pods_FitFuel_Track.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58DDCB2FB7F9899B286F365A /* Pods_FitFuel_Track.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFuel_Track.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF220AE046FA755B79D598F /* Pods-FitFuel Track.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFuel Track.release.xcconfig"; path = "Target Support Files/Pods-FitFuel Track/Pods-FitFuel Track.release.xcconfig"; sourceTree = "<group>"; };
+		8002F4B32CD0CC1E00FAABC2 /* FitFuel Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitFuel Track.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8002F4B62CD0CC1E00FAABC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8002F4B82CD0CC1E00FAABC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8002F4BD2CD0CC1E00FAABC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8002F4BF2CD0CC2100FAABC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8002F4C22CD0CC2100FAABC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8002F4C42CD0CC2100FAABC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8002F4CA2CD0D1F000FAABC2 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8002F4CD2CD0D53000FAABC2 /* WelcomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOneViewController.swift; sourceTree = "<group>"; };
+		801A06F12CD4E1080078D70F /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		801A06F42CD4E1140078D70F /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		801A2EFD2CD24DA300288BB2 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		801A2EFE2CD24DA300288BB2 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		803319C62CD371AF00C0B22D /* CaloriesCalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCalculationViewController.swift; sourceTree = "<group>"; };
+		80344C2C2CD3C06500D1AD10 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		80344C2D2CD3C06500D1AD10 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		80344C322CD3CE2100D1AD10 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		80792A2A2CD0F66A00FF8277 /* GetInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInformationViewController.swift; sourceTree = "<group>"; };
+		807FCFB32CD2217A00962B11 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		807FCFB72CD23CE000962B11 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		809E9BB82CD8BA24001410D8 /* WorkutDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkutDetailsViewController.swift; sourceTree = "<group>"; };
+		80B8D1A32CD4D6D200560594 /* MeasurmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurmentsViewController.swift; sourceTree = "<group>"; };
+		80BE8EFD2CD274F700ED1B8A /* AddWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkOutViewController.swift; sourceTree = "<group>"; };
+		80EBB2002CD4AC170014F226 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		80F5F4DA2CD2630E00BD3B83 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		80F5F4DC2CD265F900BD3B83 /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		CAF38B79356577F68DE061A4 /* Pods-FitFuel Track.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFuel Track.debug.xcconfig"; path = "Target Support Files/Pods-FitFuel Track/Pods-FitFuel Track.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8002F4B02CD0CC1E00FAABC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D019BF91A471608F6FCEEFF3 /* Pods_FitFuel_Track.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8002F4AA2CD0CC1E00FAABC2 = {
+			isa = PBXGroup;
+			children = (
+				8002F4B52CD0CC1E00FAABC2 /* FitFuel Track */,
+				8002F4B42CD0CC1E00FAABC2 /* Products */,
+				A892DF07655F9B4FADA1B1B3 /* Pods */,
+				BFAC0EAD898FE8DD937ECADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8002F4B42CD0CC1E00FAABC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8002F4B32CD0CC1E00FAABC2 /* FitFuel Track.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8002F4B52CD0CC1E00FAABC2 /* FitFuel Track */ = {
+			isa = PBXGroup;
+			children = (
+				807FCFB42CD2217A00962B11 /* Resoucres */,
+				8002F4CB2CD0D1F000FAABC2 /* Needed */,
+				801A06F52CD4E1140078D70F /* AboutUs */,
+				801A06F22CD4E1080078D70F /* Feedback */,
+				80EBB2012CD4AC170014F226 /* Profile */,
+				80344C2E2CD3C06500D1AD10 /* It'sMe */,
+				803319C52CD3719700C0B22D /* CaloriesCalculation */,
+				80B8D1A22CD4D6C000560594 /* Measurments */,
+				80344C312CD3CE0B00D1AD10 /* Update */,
+				80F5F4D92CD262F800BD3B83 /* WorkOut */,
+				807FCFB62CD23CC700962B11 /* Home */,
+				801A2EFF2CD24DA300288BB2 /* Tabbar */,
+				80792A292CD0F64200FF8277 /* Information */,
+				8002F4D02CD0D53000FAABC2 /* Welcome */,
+				8002F4B62CD0CC1E00FAABC2 /* AppDelegate.swift */,
+				8002F4B82CD0CC1E00FAABC2 /* SceneDelegate.swift */,
+				8002F4BC2CD0CC1E00FAABC2 /* Main.storyboard */,
+				8002F4BF2CD0CC2100FAABC2 /* Assets.xcassets */,
+				8002F4C12CD0CC2100FAABC2 /* LaunchScreen.storyboard */,
+				8002F4C42CD0CC2100FAABC2 /* Info.plist */,
+			);
+			path = "FitFuel Track";
+			sourceTree = "<group>";
+		};
+		8002F4CB2CD0D1F000FAABC2 /* Needed */ = {
+			isa = PBXGroup;
+			children = (
+				8002F4CA2CD0D1F000FAABC2 /* Helper.swift */,
+			);
+			path = Needed;
+			sourceTree = "<group>";
+		};
+		8002F4D02CD0D53000FAABC2 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				8002F4CD2CD0D53000FAABC2 /* WelcomeOneViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		801A06F22CD4E1080078D70F /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				801A06F12CD4E1080078D70F /* FeedbackViewController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		801A06F52CD4E1140078D70F /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				801A06F42CD4E1140078D70F /* AboutusViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		801A2EFF2CD24DA300288BB2 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				801A2EFD2CD24DA300288BB2 /* CustomTabBar.swift */,
+				801A2EFE2CD24DA300288BB2 /* TabBarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		803319C52CD3719700C0B22D /* CaloriesCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				803319C62CD371AF00C0B22D /* CaloriesCalculationViewController.swift */,
+			);
+			path = CaloriesCalculation;
+			sourceTree = "<group>";
+		};
+		80344C2E2CD3C06500D1AD10 /* It'sMe */ = {
+			isa = PBXGroup;
+			children = (
+				80344C2C2CD3C06500D1AD10 /* SettingsViewController.swift */,
+				80344C2D2CD3C06500D1AD10 /* SideMenuTableViewCell.swift */,
+			);
+			path = "It'sMe";
+			sourceTree = "<group>";
+		};
+		80344C312CD3CE0B00D1AD10 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				80344C322CD3CE2100D1AD10 /* UpdateViewController.swift */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
+		80792A292CD0F64200FF8277 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				80792A2A2CD0F66A00FF8277 /* GetInformationViewController.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		807FCFB42CD2217A00962B11 /* Resoucres */ = {
+			isa = PBXGroup;
+			children = (
+				807FCFB32CD2217A00962B11 /* iOSDropDown.swift */,
+			);
+			path = Resoucres;
+			sourceTree = "<group>";
+		};
+		807FCFB62CD23CC700962B11 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				807FCFB72CD23CE000962B11 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		809E9BB72CD8BA08001410D8 /* WorkOut Details */ = {
+			isa = PBXGroup;
+			children = (
+				809E9BB82CD8BA24001410D8 /* WorkutDetailsViewController.swift */,
+			);
+			path = "WorkOut Details";
+			sourceTree = "<group>";
+		};
+		80B8D1A22CD4D6C000560594 /* Measurments */ = {
+			isa = PBXGroup;
+			children = (
+				80B8D1A32CD4D6D200560594 /* MeasurmentsViewController.swift */,
+			);
+			path = Measurments;
+			sourceTree = "<group>";
+		};
+		80BE8EFC2CD274C800ED1B8A /* AddWorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				80BE8EFD2CD274F700ED1B8A /* AddWorkOutViewController.swift */,
+			);
+			path = AddWorkOut;
+			sourceTree = "<group>";
+		};
+		80EBB2012CD4AC170014F226 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				80EBB2002CD4AC170014F226 /* UserProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		80F5F4D92CD262F800BD3B83 /* WorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				80F5F4DA2CD2630E00BD3B83 /* WorkoutViewController.swift */,
+				80F5F4DC2CD265F900BD3B83 /* WorkoutTableViewCell.swift */,
+				80BE8EFC2CD274C800ED1B8A /* AddWorkOut */,
+				809E9BB72CD8BA08001410D8 /* WorkOut Details */,
+			);
+			path = WorkOut;
+			sourceTree = "<group>";
+		};
+		A892DF07655F9B4FADA1B1B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAF38B79356577F68DE061A4 /* Pods-FitFuel Track.debug.xcconfig */,
+				5EF220AE046FA755B79D598F /* Pods-FitFuel Track.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFAC0EAD898FE8DD937ECADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58DDCB2FB7F9899B286F365A /* Pods_FitFuel_Track.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8002F4B22CD0CC1E00FAABC2 /* FitFuel Track */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8002F4C72CD0CC2100FAABC2 /* Build configuration list for PBXNativeTarget "FitFuel Track" */;
+			buildPhases = (
+				EE173848950AA86DFEE489CB /* [CP] Check Pods Manifest.lock */,
+				8002F4AF2CD0CC1E00FAABC2 /* Sources */,
+				8002F4B02CD0CC1E00FAABC2 /* Frameworks */,
+				8002F4B12CD0CC1E00FAABC2 /* Resources */,
+				0BE3F8850E1C4F4BC61387FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitFuel Track";
+			productName = "FitFuel Track";
+			productReference = 8002F4B32CD0CC1E00FAABC2 /* FitFuel Track.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8002F4AB2CD0CC1E00FAABC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8002F4B22CD0CC1E00FAABC2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8002F4AE2CD0CC1E00FAABC2 /* Build configuration list for PBXProject "FitFuel Track" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8002F4AA2CD0CC1E00FAABC2;
+			productRefGroup = 8002F4B42CD0CC1E00FAABC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8002F4B22CD0CC1E00FAABC2 /* FitFuel Track */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8002F4B12CD0CC1E00FAABC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8002F4C02CD0CC2100FAABC2 /* Assets.xcassets in Resources */,
+				8002F4C32CD0CC2100FAABC2 /* Base in Resources */,
+				8002F4BE2CD0CC1E00FAABC2 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE3F8850E1C4F4BC61387FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFuel Track/Pods-FitFuel Track-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitFuel Track/Pods-FitFuel Track-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitFuel Track/Pods-FitFuel Track-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE173848950AA86DFEE489CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitFuel Track-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8002F4AF2CD0CC1E00FAABC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80344C302CD3C06500D1AD10 /* SideMenuTableViewCell.swift in Sources */,
+				803319C72CD371AF00C0B22D /* CaloriesCalculationViewController.swift in Sources */,
+				807FCFB52CD2217B00962B11 /* iOSDropDown.swift in Sources */,
+				809E9BB92CD8BA24001410D8 /* WorkutDetailsViewController.swift in Sources */,
+				801A06F32CD4E1080078D70F /* FeedbackViewController.swift in Sources */,
+				80792A2B2CD0F66A00FF8277 /* GetInformationViewController.swift in Sources */,
+				80F5F4DB2CD2630E00BD3B83 /* WorkoutViewController.swift in Sources */,
+				80EBB2022CD4AC170014F226 /* UserProfileViewController.swift in Sources */,
+				801A2F0A2CD24DA300288BB2 /* TabBarViewController.swift in Sources */,
+				801A06F62CD4E1140078D70F /* AboutusViewController.swift in Sources */,
+				80BE8EFE2CD274F700ED1B8A /* AddWorkOutViewController.swift in Sources */,
+				80344C332CD3CE2100D1AD10 /* UpdateViewController.swift in Sources */,
+				80F5F4DD2CD265FA00BD3B83 /* WorkoutTableViewCell.swift in Sources */,
+				801A2F092CD24DA300288BB2 /* CustomTabBar.swift in Sources */,
+				80B8D1A42CD4D6D200560594 /* MeasurmentsViewController.swift in Sources */,
+				8002F4B72CD0CC1E00FAABC2 /* AppDelegate.swift in Sources */,
+				80344C2F2CD3C06500D1AD10 /* SettingsViewController.swift in Sources */,
+				8002F4B92CD0CC1E00FAABC2 /* SceneDelegate.swift in Sources */,
+				8002F4D12CD0D53000FAABC2 /* WelcomeOneViewController.swift in Sources */,
+				807FCFB82CD23CE000962B11 /* HomeViewController.swift in Sources */,
+				8002F4CC2CD0D1F000FAABC2 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8002F4BC2CD0CC1E00FAABC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8002F4BD2CD0CC1E00FAABC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8002F4C12CD0CC2100FAABC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8002F4C22CD0CC2100FAABC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8002F4C52CD0CC2100FAABC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8002F4C62CD0CC2100FAABC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8002F4C82CD0CC2100FAABC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF38B79356577F68DE061A4 /* Pods-FitFuel Track.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitFuel Track/Info.plist";
+				INFOPLIST_KEY_NSMotionUsageDescription = "FitFuel Track uses motion data to track your steps and calculate calories burned.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "FitFuel Track needs access to your photo library to let you upload images, ensuring a smooth and efficient experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FitFuel Track needs access to your photo library to let you upload images, ensuring a smooth and efficient experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitfueltrack.Fitf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8002F4C92CD0CC2100FAABC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF220AE046FA755B79D598F /* Pods-FitFuel Track.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitFuel Track/Info.plist";
+				INFOPLIST_KEY_NSMotionUsageDescription = "FitFuel Track uses motion data to track your steps and calculate calories burned.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "FitFuel Track needs access to your photo library to let you upload images, ensuring a smooth and efficient experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "FitFuel Track needs access to your photo library to let you upload images, ensuring a smooth and efficient experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitfueltrack.Fitf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8002F4AE2CD0CC1E00FAABC2 /* Build configuration list for PBXProject "FitFuel Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8002F4C52CD0CC2100FAABC2 /* Debug */,
+				8002F4C62CD0CC2100FAABC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8002F4C72CD0CC2100FAABC2 /* Build configuration list for PBXNativeTarget "FitFuel Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8002F4C82CD0CC2100FAABC2 /* Debug */,
+				8002F4C92CD0CC2100FAABC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8002F4AB2CD0CC1E00FAABC2 /* Project object */;
+}
